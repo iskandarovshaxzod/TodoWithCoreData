@@ -10,6 +10,4 @@ import Foundation
 import CoreData
 
 @objc(TodoType)
-public class TodoType: NSManagedObject {
-
-}
+public class TodoType: NSManagedObject {}

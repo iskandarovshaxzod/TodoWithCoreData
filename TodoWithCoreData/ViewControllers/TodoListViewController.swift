@@ -32,8 +32,6 @@ class TodoListViewController: UIViewController {
         fetchAllTodos()
     }
     
-    
-    
     func configureNavBar() {
         
         let menuItems = [
@@ -50,7 +48,7 @@ class TodoListViewController: UIViewController {
                                          action: #selector(addBarButtonItemTapped))
         navigationItem.rightBarButtonItems = [plusButton, sortButton]
         
-        navigationItem.title = "Types"
+        navigationItem.title = type.name
     }
     
     func initViews() {

@@ -99,8 +99,9 @@ extension TypeViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = types[indexPath.section].name
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+        cell.textLabel?.text       = types[indexPath.section].name
+        cell.detailTextLabel?.text = "\(types[indexPath.section].todosCount) todos"
         return cell
     }
     

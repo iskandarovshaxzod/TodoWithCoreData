@@ -14,6 +14,13 @@ extension TodoType {
     
     @NSManaged public var name: String?
     @NSManaged public var todos: Set<Todo>?
+    //Transient property
+    @objc var todosCount: Int {
+        willAccessValue(forKey: "todos")
+        let count = todos?.count ?? 0
+        didAccessValue(forKey: "todos")
+        return count
+    }
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<TodoType> {
         return NSFetchRequest<TodoType>(entityName: "TodoType")
@@ -53,6 +60,4 @@ extension TodoType {
 
 }
 
-extension TodoType : Identifiable {
-
-}
+extension TodoType : Identifiable {}

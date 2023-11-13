@@ -8,6 +8,7 @@
     </entity>
     <entity name="TodoType" representedClassName="TodoType" syncable="YES">
         <attribute name="name" attributeType="String"/>
+        <attribute name="todosCount" transient="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <relationship name="todos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Todo" inverseName="type" inverseEntity="Todo"/>
     </entity>
 </model>

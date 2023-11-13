@@ -19,7 +19,6 @@
 		4057FFBC2B013426002CA14F /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057FFB82B013426002CA14F /* Todo+CoreDataProperties.swift */; };
 		4057FFC12B013812002CA14F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057FFC02B013812002CA14F /* CoreDataManager.swift */; };
 		4057FFC32B013DDF002CA14F /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057FFC22B013DDF002CA14F /* TodoListViewController.swift */; };
-		4057FFC52B014C37002CA14F /* TodoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057FFC42B014C37002CA14F /* TodoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		4057FFB82B013426002CA14F /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4057FFC02B013812002CA14F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		4057FFC22B013DDF002CA14F /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
-		4057FFC42B014C37002CA14F /* TodoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 		40526F5B2B01F86C00296A52 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4057FFC42B014C37002CA14F /* TodoDetailViewController.swift */,
 				4057FFA22B01336D002CA14F /* TypeViewController.swift */,
 				4057FFC22B013DDF002CA14F /* TodoListViewController.swift */,
 			);
@@ -202,7 +199,6 @@
 				4057FFBC2B013426002CA14F /* Todo+CoreDataProperties.swift in Sources */,
 				4057FFBB2B013426002CA14F /* Todo+CoreDataClass.swift in Sources */,
 				4057FFA32B01336D002CA14F /* TypeViewController.swift in Sources */,
-				4057FFC52B014C37002CA14F /* TodoDetailViewController.swift in Sources */,
 				4057FFC32B013DDF002CA14F /* TodoListViewController.swift in Sources */,
 				4057FF9F2B01336D002CA14F /* AppDelegate.swift in Sources */,
 				4057FFA92B01336D002CA14F /* TodoWithCoreData.xcdatamodeld in Sources */,
